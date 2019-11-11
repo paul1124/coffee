@@ -1,0 +1,30 @@
+@import '../../main.scss';
+
+.home {
+    // font-family: 'Open Sans';
+    height: 100vh;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.68), rgba(0, 0, 0, 0.68)), url('../images/home/home_2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+}
+
+.home-intro {
+    align-self: center;
+    width: 70%;
+    margin: 0 auto;
+    text-align: right;
+    color: white;
+}
+
+.home-title {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.home-subtitle {
+    font-weight: 100;
+    font-size: 1.5em;
+}

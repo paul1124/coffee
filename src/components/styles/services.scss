@@ -1,0 +1,38 @@
+@import '../../main.scss';
+
+.services-title {
+    text-align: center;
+    margin: 2em;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.75em;
+}
+
+.services-container {
+    display: flex;
+    width: 90%;
+    margin: 3em auto;
+    justify-content: space-around;
+}
+.service {
+    flex: 1;
+    border: 1px solid black;
+    // text-align: center;
+}
+.service-img {
+    display: block;
+    width: 20em;
+    height: 13em;
+    margin: 2em auto;
+}
+
+.service-name {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 2em 0;
+}
+.service-description {
+    width: 20em;
+    margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+@import '../../main.scss';
+
+.banner {
+    height: 33em;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(rgba(80, 80, 80, 0.25), rgba(80, 80, 80, 0.25)), url('../images/banner/banner.jpeg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.banner-img {
+    position: absolute;
+    z-index: 0;
+}
+
+.banner-message {
+    position: relative;
+    z-index: 5;
+    width: 50%;
+    height: 10em;
+    border: 1px solid white;
+    margin-left: auto;
+    color: white;
+    align-self: center;
+    &-title {
+    }
+}

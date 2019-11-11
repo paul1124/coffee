@@ -1,0 +1,44 @@
+@import '../../main.scss';
+
+.article {
+    background-color: white;
+    overflow: hidden;
+}
+
+.article-container {
+    margin: 5rem auto;
+    width: 80%;
+    display: flex;
+}
+.article-header {
+    text-align: center;
+    // border: 1px solid black;
+    flex: 1;
+
+    &-img {
+        display: block;
+        width: 75%;
+        margin: 1em auto;
+    }
+    &-title {
+        margin: 1em;
+        font-weight: 100;
+    }
+}
+.article-nav {
+    // border: 1px solid black;
+    flex: 1;
+    display: flex;
+
+    &-button {
+        align-self: center;
+        padding: 1em;
+        border: 1px solid black;
+        margin: 0 auto;
+        display: block;
+        width: 10em;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+}
