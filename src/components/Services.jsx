@@ -12,7 +12,7 @@ export default function Services() {
                 <div className="service">
                     <img src={design} alt="" className="service-img"/>
                     <h3 className="service-name">Website Design</h3>
-                    <p className="service-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, nemo.</p>
+                    <p className="service-description">Designs Matter. <br/>Simple and Clean Web Designs that reflects the ambiance of your Cafe.</p>
                 </div>
                 <div className="service">
                     <img src={seo} alt="" className="service-img"/>

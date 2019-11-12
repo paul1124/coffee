@@ -17,11 +17,6 @@ const works = [
         link: 'string',
         img: 'img'
     },
-    {
-        name: 'four',
-        link: 'string',
-        img: 'img'
-    }
 ]
 
 export default function Work() {

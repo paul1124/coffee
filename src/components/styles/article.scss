@@ -1,7 +1,7 @@
 @import '../../main.scss';
 
 .article {
-    background-color: white;
+    background-color: rgba(206, 206, 206, 0.514);
     overflow: hidden;
 }
 
@@ -35,10 +35,27 @@
         padding: 1em;
         border: 1px solid black;
         margin: 0 auto;
+        margin-bottom: 3em;
         display: block;
         width: 10em;
         text-align: center;
         text-decoration: none;
         color: black;
+        .i {
+            margin-left: 1em;
+            margin-bottom: 0.1em;
+            font-size: 0.85em;
+            color: white;
+        }
+        &:hover {
+            
+            background: black;
+            color: white;
+            transition: all 0.4s ease-in-out;
+            .i {
+                transform: translateX(0.25em);
+                transition: all 0.2s ease-in-out;
+            }
+        }
     }
 }

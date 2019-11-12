@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import img from './images/article/article.jpeg';
 import './styles/article.scss';
 
@@ -11,7 +13,7 @@ export default function Article() {
                     <h3 className="article-header-title">Importance of Web Presence for Caf&#233;</h3>
                 </div>
                 <div className="article-nav">
-                    <a href="" className="article-nav-button">Read The Article</a>
+                    <a href="" className="article-nav-button">Read The Article <FontAwesomeIcon className="i" icon={faChevronRight} /></a>
                 </div>
             </div>
         </section>

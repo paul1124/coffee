@@ -17,12 +17,43 @@
 .banner-message {
     position: relative;
     z-index: 5;
-    width: 50%;
-    height: 10em;
-    border: 1px solid white;
+    width: 35%;
+    height: 25em;
+    background-color: rgba(0, 0, 0, 0.54);
+    padding: 2.5em;
+    padding-top: 2em;
+    // border: 1px solid white;
     margin-left: auto;
+    margin-right: 5em;
     color: white;
     align-self: center;
+    // display: flex;
     &-title {
+        // align-self: center;
+        margin-top: 0.2em;
+        font-weight: 200;
+        font-size: 3.5em;
+        // border-bottom: 1px solid linear-gradient(to right, white, black);
+        padding-bottom: 0.3em;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to right, white , rgba(0, 0, 0, 0.54) 100%);
+            // background: white;
+            z-index: 0;
+        }
     }
+
+    &-text {
+        padding-right: 2em;
+        margin-top: 1.5em;
+        font-weight: 100;
+        line-height: 1.5em;
+    }
+
 }
