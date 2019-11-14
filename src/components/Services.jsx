@@ -11,18 +11,27 @@ export default function Services() {
             <div className="services-container">
                 <div className="service">
                     <img src={design} alt="" className="service-img"/>
+                    <hr className="service-divide"/>
+                    <div className="service-nonimg">
                     <h3 className="service-name">Website Design</h3>
-                    <p className="service-description">Designs Matter. <br/>Simple and Clean Web Designs that reflects the ambiance of your Cafe.</p>
+                    <p className="service-description">Let the customers experience what their visit to your Caf&#233; will be like. Simple and clean websites that reflects on the ambiance of the caf&#233; is a good entrance point to showcase your caf&#233; online.</p>
+                    </div>
                 </div>
                 <div className="service">
                     <img src={seo} alt="" className="service-img"/>
+                    <hr className="service-divide"/>
+                    <div className="service-nonimg">
                     <h3 className="service-name">SEO</h3>
-                    <p className="service-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, nemo.</p>
+                    <p className="service-description">Bring up your caf&#233; on top of Google search when people look for local coffee shops. Unique banners that induce people to be curious. Be representative caf&#233; in your area.</p>
+                    </div>
                 </div>
                 <div className="service">
                     <img src={sns} alt="" className="service-img"/>
+                    <hr className="service-divide"/>
+                    <div className="service-nonimg">
                     <h3 className="service-name">Social Media</h3>
-                    <p className="service-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, nemo.</p>
+                    <p className="service-description">Invite people to interact with your caf&#233; through Social Media. Posting contents, following people, hashtagging, etc. serves as user friendly interface with the customers.</p>
+                    </div>
                 </div>
             </div>
         </section>

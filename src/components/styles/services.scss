@@ -1,5 +1,10 @@
 @import '../../main.scss';
 
+.services {
+    overflow: hidden;
+    background-image: linear-gradient(rgba(230, 230, 230, 0.68), rgba(230, 230, 230, 0.68)), url('../images/services/service-wall.jpeg');
+}
+
 .services-title {
     text-align: center;
     margin: 2em;
@@ -13,11 +18,21 @@
     width: 90%;
     margin: 3em auto;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .service {
-    flex: 1;
-    border: 1px solid black;
-    // text-align: center;
+    // flex: 1;
+    background-color: rgba(255, 255, 255, 0.44);
+    // background-color: white;
+    width: 25em;
+    border-radius: 10px;
+    // color: white;
+}
+.service-divide {
+    width: 16em;
+    margin: 0 auto;
+    margin-top: 3em;
+    display: block;
 }
 .service-img {
     display: block;
@@ -26,14 +41,26 @@
     margin: 2em auto;
 }
 
+.service-nonimg {
+    // background-color: rgba(0, 0, 0, 0.6);
+    width: 16em;
+    padding: 2em;
+    
+    margin: 3em auto;
+    margin-top: 0;
+    overflow: hidden;
+    height: 10em;
+}
+
 .service-name {
+    font-size: 1.5em;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 100;
-    margin: 2em 0;
+    font-weight: 300;
+    margin-bottom: 1em;
 }
 .service-description {
-    width: 20em;
-    margin: 0 auto;
+    width: 16em;
     font-weight: 100;
+    line-height: 1.5em;
 }
