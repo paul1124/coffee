@@ -13,7 +13,7 @@ export default function Article() {
                     <h3 className="article-header-title">Importance of Web Presence for Caf&#233;</h3>
                 </div>
                 <div className="article-nav">
-                    <a href="" className="article-nav-button">Read The Article <FontAwesomeIcon className="i" icon={faChevronRight} /></a>
+                    <a href="https://medium.com/@paulhong1124/importance-of-web-presence-for-caf%C3%A9-8354139e2fa5" className="article-nav-button">Read The Article <FontAwesomeIcon className="i" icon={faChevronRight} /></a>
                 </div>
             </div>
         </section>
